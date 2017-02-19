@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chi Nguyen Portfolio</title>
+    <!--google fonts  -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom bootstrap css -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- jquery for bootstrap -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- bootstrap javascript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <!-- Modal -->
+<!-- Modal 1 -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Appify App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel">Pitch Perfect App</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
+                    This was my first project in Udacity's become an iOS Developer Nanodegree Program. It's an an iPhone app that records a conversation between you and a friend, and then makes your voices sound like a Chipmunk or Darth Vader. I learned a lot about the iOS ecosystem and gained a working knowledge of Swift, Apple's custom programming language created exclusively for the mobile developer.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -30,16 +35,16 @@
             </div>
         </div>
     </div>
-
+<!-- Modal 2 -->
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Sunflower App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel">Meme Version 1 App</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300">
-                    This was my second project in this class. I learned a lot about Sunflowers.
+                    This was my second project in Udacity's iOS Developer Nanodegree Program.  With this first version of MemeMe, I created an app that enables a user to take a picture, and add text at the top and bottom to form a meme. The user will be able to share the photo on Facebook and Twitter and also by SMS or email.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -47,16 +52,16 @@
             </div>
         </div>
     </div>
-
+<!-- Modal 3 -->
     <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Bokeh App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel">ConFusion</h4>
                 </div>
                 <div class="modal-body">
                     <img class="img-responsive" src="http://placehold.it/555x300">
-                    This was my third project in this class. I learned a lot about Bokeh in photography.
+                    This is the second course in the Full Stack Web Developement Specialization offered on Coursera and created by The Hong Kong University of Science and Technology.  I am able to set up, design and style a web page using Bootstrap and its components, create a responsive web page design, and make use of web tools like Bower to setup and manage websites.  
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -64,46 +69,82 @@
             </div>
         </div>
     </div>
-
-    <div class="container">
-      <div class="row">
+<!-- open flex container -->
+    <section class="flex-container">
+<!-- open header -->
+      <header class="row header-container">
         <div class="col-md-6">
-            <img class = "title-logo" src="logomark.svg" alt="Udacity logo">
+            <img class = "title-logo" src="images/front-end-tools.jpeg" id="logo" alt="Udacity logo">
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="title-super text-thin">Chi Nguyen</h1>
           <h3>Front-end Ninja</h3>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
-          <img class="img-responsive" src="images/front-end-tools.jpg" alt="Main page image!">
+      </header>  <!-- end header -->
+          <div class="row">
+            <div class="col-md-12">
+              <!-- open bootstrap nav -->
+              <nav class="row navbar navbar-default">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target= "#collapse-navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                  <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                      <li class="nav-item"><a class="nav-item" href="#featured">Featured Work</a></li>
+                      <li class="nav-item"><a class="nav-item" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+              </nav>  <!-- end nav -->
+              <div class="row hero">
+                <img class="img-responsive" src="https://static.pexels.com/photos/220144/pexels-photo-220144.jpeg" alt="Main page image!">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-muted">Featured Work</h2>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4">
+              <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify Image!" data-toggle="modal" data-target="#project1">
+              <h3 class="text-uppercase">Pitch Perfect App</h3>
+              <p><a href="https://github.com/chezze911">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive" src="http://placehold.it/555x300" alt="Sunflower Image!" data-toggle="modal" data-target="#project2">
+              <h3 class="text-uppercase">Meme App</h3>
+              <p><a href="https://github.com/chezze911">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive" src="http://placehold.it/555x300" alt="Bokeh Image!" data-toggle="modal" data-target="#project3">
+              <h3 class="text-uppercase">ConFusion</h3>
+              <p><a href="https://github.com/chezze911">Link to project</a></p>
+            </div>
+          </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify Image!" data-toggle="modal" data-target="#project1">
-          <h3 class="text-uppercase">Appify</h3>
-          <p><a href="http://github.com/udacity/appify">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img class="img-responsive" src="http://placehold.it/555x300" alt="Sunflower Image!" data-toggle="modal" data-target="#project2">
-          <h3 class="text-uppercase">Sunflower</h3>
-          <p><a href="http://github.com/udacity/sunflower">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img class="img-responsive" src="http://placehold.it/555x300" alt="Bokeh Image!" data-toggle="modal" data-target="#project3">
-          <h3 class="text-uppercase">Bokeh</h3>
-          <p><a href="http://github.com/udacity/bokeh">Link to project</a></p>
-        </div>
-      </div>
-      </div>
-    </div>
+    </section>
+
+<!-- open footer -->
+    <footer class="row col-12" id="contact">
+        <ul>
+          <li><a href="https://github.com/chezze911" target="blank"><i class="fa fa-github-alt fa-3x"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/chi-nguyen-863a2ab0/" target="blank"><i class="fa fa-linkedin fa-3x"></i></a>
+          </li>
+          <li><a href="mailto:chinguyen2018@gmail.com" target="blank"><i class="fa fa-envelope-o fa-3x"></i></a>
+          </li>
+        </ul>
+      </footer>  <!-- close footer -->
+    </section> <!-- close container -->
+    <script>
+    
+    </script>
   </body>
 </html>
