@@ -140,6 +140,7 @@ footer ul li {
     margin-top: 10px;
     margin-bottom: 0;
   }
+
   .title-super {
   	font-size: 25px;
   }
@@ -153,18 +154,18 @@ footer ul li {
   .title {
   	text-align: center;
   }
+
   .title-super {
   	font-size: 35px;
   }
+  
   h3 {
     font-size: 2em;
   }
-
   p,
   a {
     font-size: 1.75rem;
   }
-
   img {
   	padding-left: 32px;
   }
