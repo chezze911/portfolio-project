@@ -38,6 +38,12 @@ body {
   padding-top: 20px;
 }
 
+.navbar-default {
+  background-color: #7d97ad;
+  border: transparent;
+  margin-bottom: 0;
+}
+
 p {
   text-align: center;
   padding: 5px;
@@ -134,9 +140,12 @@ footer ul li {
     margin-top: 10px;
     margin-bottom: 0;
   }
+  .title-super {
+  	font-size: 25px;
+  }
 
   h3 {
-  	font-size: 1.5em;
+  	font-size: 30px;
   }
 }
 
@@ -144,7 +153,9 @@ footer ul li {
   .title {
   	text-align: center;
   }
-  
+  .title-super {
+  	font-size: 35px;
+  }
   h3 {
     font-size: 2em;
   }
@@ -155,23 +166,9 @@ footer ul li {
   }
 
   img {
-  	padding-left: 35px;
+  	padding-left: 32px;
   }
-
   .col-6 {
     width: 100%;
   }
 }
-
-/*@media screen and (max-width: 992px) {
-  title {
-	text-align: center;
-  }
-  img {
-	padding-left: 150px;
-  }
-  .title-super {
-    font-size: 50px;
-	text-align: right;
-  }
-}*/842803
