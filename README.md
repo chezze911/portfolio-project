@@ -9,6 +9,6 @@ portfolio projects you will complete throughout the course of your Nanodegree pr
 
 2.  Open the chi_portfolio.html to view my portfolio page.  
 
-3.  Then navbar will direct you to my featured projects and my contact links.
+3.  The navbar will direct you to my featured projects and my contact links.
 
 4.  Click on any of the featured projects to see a Modal popup with a description of the projects I have worked on. 
