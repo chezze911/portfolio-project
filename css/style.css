@@ -158,7 +158,7 @@ footer ul li {
   .title-super {
   	font-size: 35px;
   }
-  
+
   h3 {
     font-size: 2em;
   }
@@ -168,8 +168,5 @@ footer ul li {
   }
   img {
   	padding-left: 32px;
-  }
-  .col-6 {
-    width: 100%;
   }
 }
