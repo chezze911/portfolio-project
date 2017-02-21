@@ -53,18 +53,15 @@ p {
   width: 100%;
 }
 
-.col-12 {
-    width: 100%;
-}
-
 .hero-img {
   height: auto;
   margin: 0;
+  width: 100%;
 }
 
 footer ul {
-    text-align: center;
-    padding: 0px;
+  text-align: center;
+  padding: 0px;
 }
 
 footer ul li {
