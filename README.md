@@ -7,7 +7,7 @@ portfolio projects you will complete throughout the course of your Nanodegree pr
 
 1.  Download or clone my github repository.  
 
-2.  Open the chi_portfolio.html to view my portfolio page.  
+2.  Open the index.html to view my portfolio page in any web browser or mobile device.  
 
 3.  The navbar will direct you to my featured projects and my contact links.
 
